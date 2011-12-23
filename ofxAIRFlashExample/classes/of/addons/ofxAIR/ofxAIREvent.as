@@ -1,0 +1,1 @@
+﻿package of.addons.ofxAIR {	import flash.events.Event;		public class ofxAIREvent extends Event {				public static const RECEIVED:String = "ofx_air_received";		public static const WRITE_COMPLETE:String = "ofx_air_write_complete";				public var data:*;		public function ofxAIREvent(eName:String, eData:*) {			data = eData;			super(eName);		}	}	}
